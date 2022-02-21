@@ -1,7 +1,7 @@
 ---
 title: "Fighting the **monsters** in **everyone's backyards**"
 subtitle: "Pursue STEM: Grade 11"
-author: "Prof. Liza Bolton"
+author: "Prof. Liza Bolton, liza.bolton@utoronto.ca"
 date: 2022-02-26
 output:
   xaringan::moon_reader:
@@ -47,3 +47,5 @@ style_xaringan(
 
 ---
 class: inverse
+
+Slides can be found at: 

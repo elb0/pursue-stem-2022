@@ -1,0 +1,49 @@
+---
+title: "Fighting the **monsters** in **everyone's backyards**"
+subtitle: "Pursue STEM: Grade 11"
+author: "Prof. Liza Bolton"
+date: 2022-02-26
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+class: inverse, middle, center
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+
+style_xaringan(
+  # Set fonts
+  header_font_google = google_font("Libre Baskerville"),
+  text_font_google   = google_font("Lato", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  # Title page
+  inverse_background_color = "#3C133F",
+  inverse_text_color = "white",
+  title_slide_text_color =  "white",
+  # General
+  text_font_size = 14,
+  header_color = "#3C133F",
+  header_background_color = "#FFCA17",
+  # Yellow highlight colour
+  text_bold_color = "#FFCA17")
+
+```
+
+
+
+# __“__The best thing about being a <br>__statistician__<br> is that you get to play in<br> __everyone's backyard__.__”__
+
+## ~John Tukey
+
+---
+# Plan for today
+
+---
+class: inverse

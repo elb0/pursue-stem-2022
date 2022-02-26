@@ -1,6 +1,9 @@
 ---
 title: "Pursue STEM Student Responses"
-output: html_document
+output:
+  html_document:
+    df_print: paged
+    css: [xaringan-themer.css, pursue-stem-theme.css]
 ---
 
 ```{r, message=FALSE, echo=FALSE}
@@ -78,3 +81,22 @@ ggplotly(bacon)
 ```
 
 
+# Twitter charts 
+
+"Imagine you run the Twitter for Politician B (red). Which chart will you Tweet?"
+
+```{r, message = F}
+twitter <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vT_-9_FnNGQm9XO1RMMhc3X2yesFSVojqKPhDFf4SXwCScp9UDrr_0GLgSx1N4w0izpON7y5BkwxtPu/pub?output=csv")
+
+
+twitter_chart <- twitter %>% 
+  rename(n = 2) %>% 
+  separate_rows(n, sep = ", ") %>% 
+  ggplot(aes(x = n)) +
+  geom_bar(fill = colors[3]) +
+  theme_minimal() +
+  labs(x = "Chart")
+
+ggplotly(twitter_chart)
+
+```

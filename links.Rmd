@@ -20,6 +20,8 @@ output:
 
 -   Colorectal cancer statistics: https://cancer.ca/en/cancer-information/cancer-types/colorectal/statistics
 
+-   WHO report: https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf
+
 -   Pitfall 2 warm-up: https://forms.gle/F3ARdBXDgit2qTnUA
 
 -   Source for charts: https://www.washingtonpost.com/graphics/politics/2016-election/trump-charts/ 

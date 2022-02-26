@@ -3,6 +3,7 @@ title: "Links"
 output:
   html_document:
     df_print: paged
+    css: [xaringan-themer.css, pursue-stem-theme.css]
 ---
 
 -   Slides: https://ps-stats-22.netlify.app/#1
@@ -17,7 +18,11 @@ output:
 
 -   Pitfall 1 activity: https://forms.gle/gSD39vN7g22Bsvrb7
 
+-   Colorectal cancer statistics: https://cancer.ca/en/cancer-information/cancer-types/colorectal/statistics
+
 -   Pitfall 2 warm-up: https://forms.gle/F3ARdBXDgit2qTnUA
+
+-   Source for charts: https://www.washingtonpost.com/graphics/politics/2016-election/trump-charts/ 
 
 # Other
 

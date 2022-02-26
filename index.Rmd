@@ -116,7 +116,7 @@ class: header_background
 # Content warning
 
 .large[
-Some of the stories today will talk briefly about abortion and sudden unexplained death in infancy (SUDI). 
+One of the stories today will talk briefly about abortion, another discusses the 2016 US election. 
 
 If at any time you feel uncomfortable or would like any support, please message Ethan, Daniela or myself. It is always okay to take a step away if you need it.
 ]
@@ -143,6 +143,7 @@ background-image: url("libs/images/story.png")
 background-position: top left
 background-size: 70px 70px
 layout: true
+
 ---
 class: middle
 
@@ -192,7 +193,7 @@ class: middle
 .pull-left[
 <br>
 <br>
-.mega.purple.bg-yellow[OCs were already known to increase risk of blood clots.]
+.mega.purple[OCs were _already_ __known__ to increase risk of blood clots.]
 ]
 
 .pull-right[
@@ -209,7 +210,7 @@ knitr::include_graphics("libs/images/clot-small.png")
 ---
 class: inverse, middle
 
-.center.mega[“For the vast majority of women, the pill is a .yellow[safe\ and highly effective form of contraception. … .yellow[No-one need stop taking the pill] before obtaining medical advice.”]
+.mega[“For the vast majority of women, the pill is a .yellow[safe and highly effective] form of contraception. … .yellow[No-one need stop taking the pill] before obtaining medical advice.”]
 
 ~ Advice from UK Committee on Safety of Medicines in the same message
 
@@ -391,6 +392,7 @@ $$\frac{3}{10} = 30\%$$
 ]
 
 ---
+class: inverse, middle, center
 
 # What does DOUBLE the risk mean?
 
@@ -401,11 +403,11 @@ class: inverse, middle, center
 
 --
 
-We’re talking about .highlight[relative risk].
+.large[We’re talking about .highlight[relative risk].]
 
 --
 
-We are .yellow[__comparing__] two .highlight[absolute risks].
+.large[We are .yellow[__comparing__] two .highlight[absolute risks].]
 
 ---
 class: center, middle
@@ -433,3 +435,227 @@ class: center, middle
 | Example A | 30%             | 60%             | 2             |
 | Example B | 3%              | 6%              | 2             |
 | Example C | 0.3%            | 0.6%            | 2             |
+
+
+---
+background-image: url("libs/images/pitfall.png")
+background-position: top left
+background-size: 70px 70px
+layout: true
+
+.footnote.purple[_Pitfall 1_]
+---
+class: inverse, center, middle
+
+.large[When interpreting or reporting risks make sure you think about both .yellow[absolute] and .yellow[relative] risk.]
+
+.footnote[_Pitfall 1_]
+
+--
+
+.large[Relative risks can sound big and scary but not mean much at all.]
+
+--
+
+.large[(A small number multiplied by a big number can still be quite a small number.)]
+
+--
+
+.large[Then again, a small increase or decrease in the relative risk of something that affects a lot of people might have very big social/financial implications.]
+
+---
+background-image: url("libs/images/bacon.jpg")
+background-size: contain
+
+---
+class: inverse, center, middle
+
+.footnote[_Pitfall 1_]
+
+.large[It is estimated that about .highlight.purple[1 in 14 Canadian men] will develop colorectal cancer during their lifetime and 1 in 34 will die from it.]
+
+--
+
+.large[≈ 7%]
+
+--
+
+.large[It is estimated that about .highlight.purple[1 in 18 Canadian women] will develop colorectal cancer during their lifetime and 1 in 40 will die from it.
+]
+
+--
+
+.large[≈ 6%]
+
+
+.small[~ Colorectal cancer statistics. Cancer society of Canada. Retrieved from: https://cancer.ca/en/cancer-information/cancer-types/colorectal/statistics?_ga=2.53517867.286138816.1645884769-170759981.1645884769]
+
+---
+class: inverse, center, middle
+
+.footnote[_Pitfall 1_]
+
+# 7% increased by 18% ≈ 8%
+
+1 percentage point increase
+
+---
+class: header_background
+# Activity time
+
+- We'll put you in breakout rooms.  
+- Go to: https://forms.gle/gSD39vN7g22Bsvrb7 (ideally one person can share their screen, but okay if not).  
+- Now YOU are the doctor, talk through what advice you'd give a patient that comes to you now with questions and concerns about bacon consumption.
+
+---
+class: inverse, center, middle
+
+# Report back
+
+.footnote[_Pitfall 1_]
+
+---
+class: inverse, middle
+background-image: url("libs/images/baseline-mon.png")
+background-position: bottom center
+background-size: 203px 203px
+
+# With you till the end of the baseline
+
+---
+background-image: url("libs/images/story.png")
+background-position: top left
+background-size: 70px 70px
+layout: true
+
+.footnote.purple[_Pitfall 2_]
+
+---
+class: center, middle
+
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("https://64.media.tumblr.com/3dd6bc15ed18010e9b0937613557dd9c/tumblr_p34e7cuiyD1wu7qxxo1_500.gif")
+```
+
+---
+class: center, middle
+
+
+```{r, echo=FALSE, out.width = "60%"}
+knitr::include_graphics("libs/images/polsAB.png")
+```
+
+---
+class: center, middle
+
+# Go to: https://forms.gle/F3ARdBXDgit2qTnUA 
+
+```{r, echo=FALSE, out.width = "60%"}
+knitr::include_graphics("libs/images/polB_twitter.png")
+```
+
+
+---
+class: ceneter, middle
+
+```{r, echo=FALSE, out.width = "40%", fig.align='center'}
+knitr::include_graphics("libs/images/polls-1.png")
+```
+
+---
+class: ceneter, middle
+
+```{r, echo=FALSE, out.width = "50%", fig.align='center'}
+knitr::include_graphics("libs/images/polls-2.png")
+```
+
+---
+class: ceneter, middle
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("libs/images/polls-3.png")
+```
+
+.small[https://www.washingtonpost.com/graphics/politics/2016-election/trump-charts/]
+
+---
+background-image: url("libs/images/concept.png")
+background-position: top left
+background-size: 70px 70px
+layout: true
+
+.footnote.purple[_Pitfall 2_]
+
+---
+
+<br>
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("libs/images/polls-4.png")
+```
+
+.small[https://www.washingtonpost.com/graphics/politics/2016-election/trump-charts/]
+
+
+---
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("libs/images/polls-5.png")
+```
+
+.small[https://www.washingtonpost.com/graphics/politics/2016-election/trump-charts/]
+
+---
+background-image: url("libs/images/pitfall.png")
+background-position: top left
+background-size: 70px 70px
+layout: true
+
+.footnote.purple[_Pitfall 2_]
+
+---
+class: inverse, middle, center
+
+.large[When making or interpreting bar charts, make sure the .yellow[baseline] is visible and .yellow[represents zero] on your scale.]
+
+--
+
+.mega["For bar charts, a zero baseline is the difference between .yellow[data visualization] and .yellow[data spin].”]
+
+~ John Muyskens, .small[www.washingtonpost.com/graphics/politics/2016-election/trump-charts]
+
+---
+class: header_background
+# Activity time
+
+- I'll put you in breakout rooms. 
+- No link for this activity, but ideally someone has a pen/paper handy or a tablet/phone that they can draw on.
+- Choose a more modern concern than the 2016 election. Ideally something that matters to YOU. Imagine you were a trying to do some _data spin_. 
+  - Decide on some statistics to compare INAPPROPRIATELY (you're aiming for spin, not truth!).
+  - Sketch your bad graph.
+  - Prepare to explain what the goal of your data spin is back to the group and talk about how you'd achieve that with your chart.
+  
+.small[Note: You may not have factual numbers available and/or they take too much time to find. Don't worry too much about that, __the point is to sketch out  how you'd apply this concept.__]
+
+---
+class: inverse, middle, center
+
+# Report back
+
+---
+layout: true
+
+---
+class: inverse, middle, center
+
+# Thank you!
+
+---
+class: header_background
+
+# Acknowledgements
+
+- Monsters designed by Smashicons from Flaticon  
+- Hiker designed by monkik from Flaticon  
+- Inspiration from Anna Fergusson, Stephanie Budgett and the Stats 20x team

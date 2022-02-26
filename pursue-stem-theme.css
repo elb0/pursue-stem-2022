@@ -1,0 +1,104 @@
+.footnote {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 90%;
+}
+
+/* Four-column layout */
+.column4 {
+  float: left;
+  width: 23%;
+  padding: 4px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Three-column layout */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Two-column layout */
+.left-column {
+  width: 72%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+
+}
+.right-column {
+  width: 22%;
+  float: right;
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+.right-column ~ * {
+  clear: both;
+}
+.center {
+  text-align:center;
+}
+
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+  padding-right: 0.5em;
+}
+.pull-right ~ * {
+  clear: both;
+}
+.question {
+  background-color: #cbb1cc;
+  padding-top: 0.25px;
+}
+.highlight {
+  background-color: #FFCA17;
+  padding-top: 0.25px;
+}
+a {
+  background-color: #FFCA17;
+  color: #3C133F;
+}
+
+.liner {
+  text-decoration-line: underline;
+  text-decoration-color: #FFCA17;
+}
+
+
+ul {
+  list-style-type: square;
+}
+li{
+  margin: 0px 0;
+}
+.mega { font-size: 200% }
+.large { font-size: 130% }
+.midi { font-size: 90% }
+.midsmall { font-size: 80% }
+.small { font-size: 70% }
+.tiny { font-size: 60% }
+img, video, iframe {
+  max-width: 100%;
+}

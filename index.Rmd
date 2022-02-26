@@ -1,11 +1,11 @@
 ---
-title: "Fighting the **monsters** in **everyone's backyards**"
+title: "Fighting the .yellow[**monsters**] in .yellow[**everyone's backyards**]"
 subtitle: "Pursue STEM: Grade 11"
 author: "Prof. Liza Bolton, liza.bolton@utoronto.ca"
 date: 2022-02-26
 output:
   xaringan::moon_reader:
-    css: xaringan-themer.css
+    css: [xaringan-themer.css, pursue-stem-theme.css]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -13,7 +13,6 @@ output:
       countIncrementalSlides: false
       ratio: 16:9
 ---
-class: inverse, middle, center
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
@@ -21,31 +20,191 @@ library(xaringanthemer)
 style_xaringan(
   # Set fonts
   header_font_google = google_font("Libre Baskerville"),
-  text_font_google   = google_font("Lato", "300", "300i"),
+  text_font_google   = google_font("Lato"),
   code_font_google   = google_font("Fira Mono"),
   # Title page
-  inverse_background_color = "#3C133F",
+  inverse_background_color = "#43003F",
   inverse_text_color = "white",
   title_slide_text_color =  "white",
   # General
-  text_font_size = 14,
-  header_color = "#3C133F",
-  header_background_color = "#FFCA17",
+  text_font_size = "30px",
+  header_color = "#43003F",
   # Yellow highlight colour
-  text_bold_color = "#FFCA17")
+  #text_bold_color = "#FFCA17",
+  colors = c(
+    red = "#f34213",
+    yellow = "#FFCA17",
+    purple = "#43003F",
+    white = "#FFFFFF"
+  ))
 
 ```
 
+class: header_background
+# Land acknowledgement
 
+The land on which the University of Toronto and Pursue STEM operate is the traditional lands of the .highlight[Anishinaabe], the .highlight[Haudenosaunee], and the .highlight[Mississaugas of the Credit]. With the Dish With One Spoon treaty, these peoples agreed to share and protect this land, and all those who have come here since, both Indigenous and non-Indigenous, are invited into this treaty in a spirit of respect and peace. This land is also, more recently, subject to Treaty 13, a treaty between the Mississaugas and the British Crown.
 
-# __“__The best thing about being a <br>__statistician__<br> is that you get to play in<br> __everyone's backyard__.__”__
+Today, we are coming together to discuss statistics, a field that has been part of historical and ongoing colonization, oppression, and harm of Indigenous peoples and marginalized communities. Let us remind ourselves of our responsibilities to this land, its original peoples, and to each other and work to be ethical and culturally competent practitioners in our chosen fields.
+
+---
+class: inverse, middle, center
+
+# .yellow[“]The best thing about being a <br>.yellow[statistician]<br> is that you get to play in<br> .yellow[everyone's backyard]..yellow[”]
 
 ## ~John Tukey
 
 ---
+class: center
+background-image: url("libs/images/pitfall_walk_1.png")
+background-size: contain
+
+---
+class: center
+background-image: url("libs/images/pitfall_walk_2.png")
+background-size: contain
+
+
+---
+class: center
+background-image: url("libs/images/pitfall_walk_3.png")
+background-size: contain
+
+
+---
+class: center
+background-image: url("libs/images/pitfall_walk_4.png")
+background-size: contain
+
+
+---
+class: center
+background-image: url("libs/images/pitfall_walk_5.png")
+background-size: contain
+
+
+---
+class: center
+background-image: url("libs/images/pitfall_walk_6.png")
+background-size: contain
+
+
+---
+class: center
+background-image: url("libs/images/pitfall_walk_7.png")
+background-size: contain
+
+
+class: header_background
 # Plan for today
+
+.large[
+By the end of this session, you will be able to:
+- Describe some common __statistical reasoning challenges__ (.liner["__pitfalls__"]). 
+- Give __real-world examples__ of the .liner["__monsters__"] created in/through these pitfalls
+- Love stats because it is so much fun (and very useful)
+]
+
+---
+class: inverse, middle
+
+# Slides can be found at:
+# [ps-stats-22.netlify.app](https://ps-stats-22.netlify.app/)
+
+---
+class: header_background
+# Content warning
+
+.large[
+Some of the stories today will talk briefly about abortion and sudden unexplained death in infancy (SUDI). 
+
+If at any time you feel uncomfortable or would like any support, please message Ethan, Daniela or myself. It is always okay to take a step away if you need it.
+]
 
 ---
 class: inverse
+# Structure of each pitfall
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("libs/images/structure.png")
+```
 
-Slides can be found at: 
+
+---
+class: inverse, middle
+background-image: url("libs/images/pill-mon.png")
+background-position: bottom center
+background-size: 248px 156px
+
+# Take a chill pill
+
+
+---
+background-image: url("libs/images/story.png")
+background-position: top left
+background-size: 70px 70px
+layout: true
+---
+class: middle
+
+.pull-left.large[
+In October 1995 the UK Committee on Safety of Medicines announced people taking 3rd generation oral contraceptive (OC) pills had double the risk of blood clots of 2nd generation OCs.]
+.pull-right[
+
+```{r, echo=FALSE, out.width = "70%"}
+knitr::include_graphics("libs/images/deardoc-small.png")
+```
+]
+
+.footnote.purple[_Pitfall 1_]
+
+---
+class: middle
+
+.pull-left[
+<br>
+<br>
+.mega.purple.bg-yellow[That’s a 100% increase]
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width = "70%"}
+knitr::include_graphics("libs/images/deardoc-small.png")
+```
+]
+
+---
+class: middle, centre
+
+```{r, echo=FALSE, out.width = "90%", align='center'}
+knitr::include_graphics("libs/images/pill-paper-2.png")
+```
+
+
+---
+class: middle
+
+.pull-left[
+<br>
+<br>
+.mega.purple.bg-yellow[OCs were already known to increase risk of blood clots.]
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width = "70%"}
+knitr::include_graphics("libs/images/clot-small.png")
+```
+]
+
+
+
+
+---
+class: inverse, middle
+
+.center.mega[“For the vast majority of women, the pill is a safe and highly effective form of contraception. … No-one need stop taking the pill before obtaining medical advice.”]
+
+~ Advice from UK Committee on Safety of Medicines in the same message
+
+

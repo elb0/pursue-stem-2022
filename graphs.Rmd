@@ -1,0 +1,39 @@
+---
+title: "Pursue STEM Student Responses"
+output: html_document
+---
+
+```{r, message=FALSE, echo=FALSE}
+ knitr::opts_chunk$set(echo=F, message = F) 
+
+library(tidyverse)
+library(plotly)
+
+colors = c(
+    red = "#f34213",
+    yellow = "#FFCA17",
+    purple = "#43003F",
+    white = "#FFFFFF"
+  )
+
+
+```
+
+
+# Your answers {.tabset}
+
+## Duck check-in
+
+```{r}
+duck <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRiq9xggASJOtZCW1lxDO6snw5ViicSjt2nrAD_FWmvLRnQH45XkoRCGrJbHBal2V3TSY-nf43ZySYh/pub?output=csv")
+
+duck %>% 
+  rename(n = 2) %>% 
+  mutate(n = parse_number(as.character(n))) %>% 
+  ggplot(aes(x = n))+
+  geom_bar(color = colors[3]) +
+  theme_minimal() +
+  ggtitle("Which inflatable duck are you today?") +
+  labs(x = "Duck number")
+```
+

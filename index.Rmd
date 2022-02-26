@@ -173,6 +173,9 @@ knitr::include_graphics("libs/images/deardoc-small.png")
 ```
 ]
 
+
+.footnote.purple[_Pitfall 1_]
+
 ---
 class: middle, centre
 
@@ -180,6 +183,8 @@ class: middle, centre
 knitr::include_graphics("libs/images/pill-paper-2.png")
 ```
 
+
+.footnote.purple[_Pitfall 1_]
 
 ---
 class: middle
@@ -199,12 +204,232 @@ knitr::include_graphics("libs/images/clot-small.png")
 
 
 
+.footnote.purple[_Pitfall 1_]
 
 ---
 class: inverse, middle
 
-.center.mega[“For the vast majority of women, the pill is a safe and highly effective form of contraception. … No-one need stop taking the pill before obtaining medical advice.”]
+.center.mega[“For the vast majority of women, the pill is a .yellow[safe\ and highly effective form of contraception. … .yellow[No-one need stop taking the pill] before obtaining medical advice.”]
 
 ~ Advice from UK Committee on Safety of Medicines in the same message
 
 
+.footnote.purple[_Pitfall 1_]
+
+---
+class: center, middle
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("libs/images/pill-all-small.jpg")
+```
+
+
+.footnote.purple[_Pitfall 1_]
+
+---
+class: center, middle
+
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("libs/images/pill-20-small.jpg")
+```
+
+
+.footnote.purple[_Pitfall 1_]
+
+---
+class: center, middle
+
+```{r, echo=FALSE, out.width = "50%"}
+knitr::include_graphics("libs/images/pharmacy-small.png")
+```
+
+
+.footnote.purple[_Pitfall 1_]
+
+---
+class: center, middle
+
+.bg-yellow[13,500] more abortions
+
+```{r, echo=FALSE, out.width = "60%"}
+knitr::include_graphics("libs/images/abortions.png")
+```
+
+
+.footnote.purple[_Pitfall 1_]
+
+---
+class: middle, center
+
+.pull-left[
+<br>
+<br>
+.mega.purple[An estimated .bg-yellow[800] additional conceptions among .bg-yellow[girls under 16]]
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width = "70%"}
+knitr::include_graphics("libs/images/girl-small.jpg")
+```
+]
+
+
+.footnote.purple[_Pitfall 1_]
+
+---
+class: middle, center
+
+.pull-left[
+<br>
+<br>
+.mega.purple[.bg-yellow[£4 to 6 million] spend on abortions by the National Health Service (NHS)]
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width = "70%"}
+knitr::include_graphics("libs/images/money-small.jpg")
+```
+]
+
+
+.footnote.purple[_Pitfall 1_]
+
+
+---
+background-image: url("libs/images/concept.png")
+background-position: top left
+background-size: 70px 70px
+layout: true
+
+.footnote.purple[_Pitfall 1_]
+---
+class: inverse, center, middle
+
+# What is risk?
+
+.footnote[_Pitfall 1_]
+
+---
+class: inverse, middle
+
+# Two types:
+.center.mega[ .highlight.purple[Absolute] risk and .highlight.purple[relative] risk]
+
+.footnote[_Pitfall 1_]
+
+---
+class: inverse, middle
+
+.mega[Absolute risk is a .yellow[probability].]
+
+.large[
+The absolute risk of getting a blood clot for people taking the 3rd gen OC could be calculated as:
+
+.center[
+Total number of people taking the 3rd gen OC
+<hr color = yellow>
+Number of people taking the 3rd gen OC that get a blood clot]
+]
+
+.footnote[_Pitfall 1_]
+
+---
+class: middle, center
+
+.left-column[
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("libs/images/10-people-small.jpg")
+```
+]
+
+.right-column[.mega.purple[
+<br>
+10]]
+
+---
+class: middle, center
+
+.left-column[
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("libs/images/3-people-small.png")
+```
+]
+
+.right-column[.mega.red[
+<br>
+3]]
+
+
+---
+class: middle, center
+
+.left-column[
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("libs/images/fraction-small.png")
+```
+]
+
+.right-column[.mega.red[
+<br>
+3]
+
+.mega.purple[10]
+]
+
+
+---
+class: center, middle
+
+.mega[
+$$\frac{3}{10} = 30\%$$
+
+]
+
+---
+
+# What does DOUBLE the risk mean?
+
+---
+class: inverse, middle, center
+
+# When we talk about .yellow[double the risk], or .yellow[2x the risk] or a .yellow[twofold increase in risk]...
+
+--
+
+We’re talking about .highlight[relative risk].
+
+--
+
+We are .yellow[__comparing__] two .highlight[absolute risks].
+
+---
+class: center, middle
+
+
+|           | Absolute Risk 1 | Absolute Risk 2 | Relative Risk |
+|-----------|-----------------|-----------------|---------------|
+| Example A | 30%             | 60%             | 2             |
+
+
+---
+class: center, middle
+
+|           | Absolute Risk 1 | Absolute Risk 2 | Relative Risk |
+|-----------|-----------------|-----------------|---------------|
+| Example A | 30%             | 60%             | 2             |
+| Example B | 3%              | 6%              | 2             |
+
+
+---
+class: center, middle
+
+|           | Absolute Risk 1 | Absolute Risk 2 | Relative Risk |
+|-----------|-----------------|-----------------|---------------|
+| Example A | 30%             | 60%             | 2             |
+| Example B | 3%              | 6%              | 2             |
+| Example C | 0.3%            | 0.6%            | 2             |

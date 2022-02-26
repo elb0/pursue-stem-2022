@@ -8,6 +8,7 @@ output: html_document
 
 library(tidyverse)
 library(plotly)
+library(emojifont)
 
 colors = c(
     red = "#f34213",
@@ -16,24 +17,64 @@ colors = c(
     white = "#FFFFFF"
   )
 
+survey1 <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRiq9xggASJOtZCW1lxDO6snw5ViicSjt2nrAD_FWmvLRnQH45XkoRCGrJbHBal2V3TSY-nf43ZySYh/pub?output=csv")
 
 ```
 
 
-# Your answers {.tabset}
+# Getting started {.tabset}
 
 ## Duck check-in
 
 ```{r}
-duck <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRiq9xggASJOtZCW1lxDO6snw5ViicSjt2nrAD_FWmvLRnQH45XkoRCGrJbHBal2V3TSY-nf43ZySYh/pub?output=csv")
-
-duck %>% 
+duck <- survey1 %>% 
   rename(n = 2) %>% 
-  mutate(n = parse_number(as.character(n))) %>% 
+  mutate(n = factor(n)) %>% 
   ggplot(aes(x = n))+
-  geom_bar(color = colors[3]) +
+  geom_bar(fill = colors[3]) +
   theme_minimal() +
   ggtitle("Which inflatable duck are you today?") +
   labs(x = "Duck number")
+
+ggplotly(duck)
+
 ```
+
+## How are you feeling?
+
+```{r}
+confidence <- survey1  %>% 
+  rename(n = 4) %>% 
+  ggplot(aes(x = n))+
+  geom_bar(fill = "#43003F") +
+  theme_minimal() +
+  ggtitle("What best describes how you feel about having an activity on stats?") +
+  labs(x = "Feeling") 
+
+ggplotly(confidence)
+
+```
+
+
+
+
+# Bacon 
+
+"Which of these statements, if true, would convince you/nto eat less/no bacon? Tick all that apply."
+
+```{r}
+bacon <- survey1 %>% 
+  rename(n = 3) %>% 
+  mutate(n = str_replace_all(n, "from 15", "from\n15")) %>% 
+  separate_rows(n, sep = ", ") %>% 
+  ggplot(aes(x = n)) +
+  geom_bar(fill = colors[3]) +
+  theme_minimal() +
+  labs(x = "") +
+  coord_flip()
+
+ggplotly(bacon)
+
+```
+
 

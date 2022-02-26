@@ -1,0 +1,26 @@
+---
+title: "Links"
+output:
+  html_document:
+    df_print: paged
+---
+
+-   Slides: https://ps-stats-22.netlify.app/#1
+
+-   Graphs: [https://ps-stats-22.netlify.app/graphs.html](https://ps-stats-22.netlify.app/graphs.html) (these don't automatically update)
+
+-   Notices: [https://ps-stats-22.netlify.app/notices.pdf](https://ps-stats-22.netlify.app/notices.pdf)
+
+# Activities and forms
+
+-   Welcome survey: [forms.gle/LY7astDyGwPEviee9](https://forms.gle/LY7astDyGwPEviee9)
+
+-   Pitfall 1 activity: https://forms.gle/gSD39vN7g22Bsvrb7
+
+-   Pitfall 2 warm-up: https://forms.gle/F3ARdBXDgit2qTnUA
+
+# Other
+
+-   Learn more about the Department of Statistical Sciences: https://www.statistics.utoronto.ca/
+
+-   Follow us on Twitter: https://twitter.com/UofTStatSci
